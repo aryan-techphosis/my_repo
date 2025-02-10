@@ -1,0 +1,30 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2022 Intel Corporation
+
+version: 2
+updates:
+
+  
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day-of-month: "5"
+      time: "21:00"
+      timezone: "America/Los_Angeles"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day-of-month: "5"
+      time: "21:00"
+      timezone: "America/Los_Angeles"
+
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day-of-month: "5"
+      time: "21:00"
+      timezone: "America/Los_Angeles"
